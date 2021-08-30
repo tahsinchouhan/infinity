@@ -7,7 +7,7 @@ const Beauty = () => {
   const isMobile = size.width < 600;
 
   return (
-    <div className="sm:h-hseventy h-hseventy lg:mb-28">
+    <div className="sm:h-heighty h-hseventy lg:mb-40 ">
       <div className="lg:h-96 md:h-72 sm:h-60 h-60 mt-10 bg-beauty relative">
         <div className=" w-screen ">
           <div className="">
@@ -46,9 +46,9 @@ const Beauty = () => {
                 </div>
                 <div className="space-y-4">
                   <img
-                    src="/assets/ring.png"
+                    src="/assets/ring2.png"
                     alt="Jwellery"
-                    className="sm:h-72 xl:h-96 h-80  pb-20"
+                    className="sm:h-72 xl:h-96  h-80  pb-20"
                   />
                   <div>
                     <h1 className="text-black vollkorn-font text-2xl sm:-mt-28 -mt-32">
@@ -61,7 +61,7 @@ const Beauty = () => {
                 </div>
                 <div className="space-y-4">
                   <img
-                    src="/assets/ring.png"
+                    src="/assets/ring3.png"
                     alt="Jwellery"
                     className="sm:h-72 xl:h-96 h-80   pb-20"
                   />
@@ -76,16 +76,16 @@ const Beauty = () => {
                 </div>
               </Carousel>
             </div>
-            <div className="absolute sm:top-per30 lg:top-per50   left-per15">
+            <div className="absolute sm:top-per30  2xl:top-per50 xl:top-per30 lg:top-per50   left-per15">
               <h1 className="lg:text-6xl sm:text-5xl text-3xl malayalam-font sm:mt-0 mt-3">
                 Enhancing Beauty
               </h1>
-              <h2 className="md:text-3xl sm:text-2xl text-xs intro-font sm:mt-4 mt-1">
+              <h2 className="lg:text-3xl md:text-2xl sm:text-xl text-xs intro-font sm:mt-4 mt-1">
                 {" "}
                 Eligent yet modern jewelry with distinctive design
               </h2>
               <span className="sm:block hidden ">
-                <button className="  xl:mt-12 md:mt-10 mt-4 rounded-md mx-auto xl:w-96 sm:w-48 w-32  md:h-20 sm:h-12 h-8 bg-white xl:text-xl sm:text-lg text-xs text-black">
+                <button className="  xl:mt-12 md:mt-10 mt-4 rounded-md mx-auto xl:w-96 sm:w-48 w-32  md:h-20 sm:h-12 h-8 bg-white xl:text-2xl sm:text-lg text-xs text-black">
                   Discover Collection
                 </button>
               </span>

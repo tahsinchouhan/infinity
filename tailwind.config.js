@@ -35,6 +35,8 @@ module.exports = {
         fourty: "40vw",
         hfifty: "50vh",
         hseventy: "70vh",
+        heighty: "80vh",
+
         86: "22rem",
         98: "28rem",
         100: "30rem",
