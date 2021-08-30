@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+
+.control-arrow {
+  background-color: black !important;
+  height: 60px !important;
+  margin: auto 0 !important;
+}
+.legend {
+  background-color: transparent !important;
+  color: black !important;
+  font-size: 30px !important;
+  margin-top: 20px !important;
+}
+.para {
+  color: black !important;
+}
+@tailwind utilities;
