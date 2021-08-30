@@ -1,10 +1,29 @@
 @tailwind base;
 @tailwind components;
 
+@font-face {
+  font-family: headingFont;
+  src: url("./Fonts/MalayalamMN.ttc");
+}
+@font-face {
+  font-family: subHeadingFont;
+  src: url("./Fonts/IntroRG.ttf");
+}
+@font-face {
+  font-family: paraFont;
+  src: url("./Fonts/Vollkorn.ttf");
+}
+
 .control-arrow {
   background-color: black !important;
   height: 60px !important;
   margin: auto 0 !important;
+}
+.awssld__bullets button {
+  background-color: #d9eaea !important;
+}
+.awssld__bullets .awssld__bullets--active {
+  background-color: #819c9c !important;
 }
 .legend {
   background-color: transparent !important;
@@ -12,7 +31,20 @@
   font-size: 30px !important;
   margin-top: 20px !important;
 }
+.malayalam-font {
+  font-family: headingFont !important;
+}
+.intro-font {
+  font-family: subHeadingFont !important;
+}
+.vollkorn-font {
+  font-family: paraFont !important;
+}
 .para {
   color: black !important;
+}
+.awssld__box {
+  background-color: white !important;
+  --content-background-color: white !important;
 }
 @tailwind utilities;
