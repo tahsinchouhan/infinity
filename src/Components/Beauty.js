@@ -16,7 +16,7 @@ const Beauty = () => {
               alt=""
               className="absolute w-eighty sm:h-auto h-56 sm:top-16 top-20 left-per10  "
             />
-            <div className="sm:w-seventy w-eighty mx-auto absolute 2xl:top-per110 xl:top-per95 md:top-per105 top-per60 sm:left-per15 left-per10">
+            <div className="sm:w-sixty w-eighty mx-auto absolute 2xl:top-per110 xl:top-per95 md:top-per105 top-per60 sm:left-per20 left-per10">
               <Carousel
                 autoPlay="true"
                 interval="2000"
@@ -33,7 +33,7 @@ const Beauty = () => {
                   <img
                     src="/assets/ring.png"
                     alt="Jwellery"
-                    className="sm:h-72 xl:h-96 h-80  pb-20"
+                    className="sm:h-72 xl:h-86 h-80   pb-20"
                   />
                   <div>
                     <h1 className="text-black vollkorn-font text-2xl sm:-mt-28 -mt-32">
@@ -48,7 +48,7 @@ const Beauty = () => {
                   <img
                     src="/assets/ring2.png"
                     alt="Jwellery"
-                    className="sm:h-72 xl:h-96  h-80  pb-20"
+                    className="sm:h-72 xl:h-86  h-80   pb-20"
                   />
                   <div>
                     <h1 className="text-black vollkorn-font text-2xl sm:-mt-28 -mt-32">
@@ -63,7 +63,7 @@ const Beauty = () => {
                   <img
                     src="/assets/ring3.png"
                     alt="Jwellery"
-                    className="sm:h-72 xl:h-96 h-80   pb-20"
+                    className="sm:h-72 xl:h-86 h-80   pb-20"
                   />
                   <div>
                     <h1 className="text-black vollkorn-font text-2xl sm:-mt-28 -mt-32">

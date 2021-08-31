@@ -36,7 +36,7 @@ module.exports = {
         hfifty: "50vh",
         hseventy: "70vh",
         heighty: "80vh",
-
+        42: "10.5rem",
         86: "22rem",
         98: "28rem",
         100: "30rem",
@@ -46,6 +46,8 @@ module.exports = {
         110: "44rem",
 
         per5: "5%",
+        per8: "8%",
+
         per10: "10%",
         per15: "15%",
         per20: "20%",
