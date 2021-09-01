@@ -2,7 +2,7 @@ import React from "react";
 
 const AssureCard = ({ src, text }) => {
   return (
-    <div className="border-4 border-gray-400 shadow-2xl px-7 sm:mx-0 my-6 sm:my-0  mx-auto  sm:w-per20 w-per70 h-80 flex flex-col justify-center">
+    <div className="border-4 border-gray-400 shadow-2xl lg:px-7 px-4 sm:mx-0 my-6 sm:my-0  mx-auto w-72 lg:h-80 h-72 flex flex-col justify-center">
       <img
         src={`/assets/${src}.png`}
         alt="assurity"

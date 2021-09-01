@@ -8,34 +8,38 @@ import { SiInstagram } from "react-icons/si";
 
 const Footer = () => {
   return (
-    <section className="bg-footer  w-screen sm:h-96   flex items-end ">
-      <div className=" h-per85  sm:w-per70 mx-auto sm:flex">
+    <section className="bg-footer px-10 w-screen sm:pt-16 pt-10 pb-5   flex ">
+      <div className="lg:w-seventy w-full mx-auto sm:flex">
         <div className="w-per70 ">
-          <div className="h-per50  sm:space-y-0 space-y-4  sm:flex">
-            <div className=" sm:w-per25 w-per80 ">
-              <h1 className="pb-5 malayalam-font ">Know your Jewellery</h1>
+          <div className="  sm:space-y-0 space-y-4  sm:flex">
+            <div className=" sm:w-per30 w-per100 ">
+              <h1 className="pb-5 malayalam-font ">We Assure :</h1>
               <span className="font-light text-sm text-gray-500 space-y-1">
-                <p>Diamond Guide</p>
-                <p>Jewellery Guide</p>
-                <p>Gemstone Guide</p>
+                <p>100% Hallmark Jewellery</p>
+                <p>Try Jewellery at Home</p>
+                <p>Lifetime Exchange on Gold</p>
+                <p>Shipping and Return Policy</p>
+                <p>Terms and Conditions</p>
               </span>
             </div>
-            <div className=" sm:w-per25 w-per80 ">
-              <h1 className="pb-5 malayalam-font ">CaratLane Advantage</h1>
+            <div className=" sm:w-per25 w-per100 ">
+              <h1 className="pb-5 malayalam-font ">
+                Infinity by ma Advantage :
+              </h1>
               <span className="font-light text-sm intro-font text-gray-500 space-y-1">
-                <p>Free shipping</p>
-                <p>Financing Options</p>
-                <p>Old Gold Exchange</p>
+                <p>Digital Gold investment</p>
+                <p>Financing options</p>
+                <p>Old gold exchange</p>
               </span>
             </div>
-            <div className=" sm:w-per25 w-per80 ">
-              <h1 className="pb-5 malayalam-font ">Customer Service</h1>
+            <div className=" sm:w-per25 w-per100 ">
+              <h1 className="pb-5 malayalam-font ">Customer Service :</h1>
               <span className="font-light text-sm intro-font text-gray-500 space-y-1">
                 <p>Return Policy</p>
                 <p>Order Status</p>
               </span>
             </div>
-            <div className=" sm:w-per25 w-per80 ">
+            <div className=" sm:w-per20 w-per100 ">
               <h1 className="pb-5 malayalam-font ">About Us</h1>
               <span className="font-light text-sm intro-font text-gray-500 space-y-1">
                 <p>Our Story</p>
@@ -54,11 +58,11 @@ const Footer = () => {
               </span>
             </div>
             <div className="py-4 intro-font">
-              <p>Copyright &copy; Infinity Jewellery</p>
+              <p>Copyright &copy; Infinity by MA</p>
             </div>
           </div>
         </div>
-        <div className="w-per30 space-y-1">
+        <div className="sm:w-per30 w-full space-y-1">
           <h1 className="text-lg pb-4 malayalam-font ">Contact Us</h1>
           <p className="font-light text-sm intro-font text-gray-500">
             Mobile No. 07712233502
@@ -74,7 +78,7 @@ const Footer = () => {
               FIND A STORE
             </button>
           </div>
-          <div className="flex space-x-8">
+          <div className="flex flex-wrap md:space-x-4 space-x-4">
             <span className="text-5xl">
               <RiVisaLine />
             </span>

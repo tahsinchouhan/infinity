@@ -13,10 +13,10 @@ const Form = () => {
           <h1 className="sm:text-6xl text-4xl font-serif py-3">Sign Up Now</h1>
 
           <h2 className="sm:text-2xl text-lg intro-font  font-light py-1">
-            &nbsp; &nbsp; Join to get 10% off on your first purchase{" "}
+            &nbsp; &nbsp; Join to get 10 off on your first purchase{" "}
           </h2>
           <h2 className="sm:text-2xl text-lg intro-font  font-light py-1">
-            &nbsp; &nbsp; Join to get 10% off on your first purchase{" "}
+            &nbsp; &nbsp; Join to get 10 off on your first purchase{" "}
           </h2>
           <span>
             <input

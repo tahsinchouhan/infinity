@@ -3,7 +3,7 @@ import AwesomeSlider from "react-awesome-slider";
 import "react-awesome-slider/dist/styles.css";
 const ReviewSlider = () => {
   return (
-    <div className="sm:w-per70 w-per90 mx-auto">
+    <div className="lg:w-per50 md:w-per65 w-per90 mx-auto">
       <AwesomeSlider
         infinite={true}
         mobileTouch={true}
