@@ -16,7 +16,7 @@ const Beauty = () => {
               alt=""
               className="absolute w-eighty sm:h-auto h-56 sm:top-16 top-20 left-per10  "
             />
-            <div className="sm:w-sixty w-eighty mx-auto absolute 2xl:top-per110 xl:top-per95 md:top-per105 top-per60 sm:left-per20 left-per10">
+            <div className="lg:w-fifty sm:w-sixty w-eighty mx-auto absolute 2xl:top-per110 xl:top-per95 md:top-per105 top-per60 sm:left-per25 left-per10">
               <Carousel
                 autoPlay="true"
                 interval="2000"
@@ -33,10 +33,10 @@ const Beauty = () => {
                   <img
                     src="/assets/ring.png"
                     alt="Jwellery"
-                    className="sm:h-72 xl:h-86 h-80   pb-20"
+                    className="sm:h-64 xl:h-72 h-60   pb-20 px-4"
                   />
                   <div>
-                    <h1 className="text-black vollkorn-font text-2xl sm:-mt-28 -mt-32">
+                    <h1 className="text-black vollkorn-font text-2xl sm:-mt-28 -mt-24">
                       Enhancing Beauty
                     </h1>
                     <p className="text-center intro-font  sm:-mt-0 -mt-0 ">
@@ -48,10 +48,10 @@ const Beauty = () => {
                   <img
                     src="/assets/ring2.png"
                     alt="Jwellery"
-                    className="sm:h-72 xl:h-86  h-80   pb-20"
+                    className="sm:h-64 xl:h-72 h-60   pb-20 px-4"
                   />
                   <div>
-                    <h1 className="text-black vollkorn-font text-2xl sm:-mt-28 -mt-32">
+                    <h1 className="text-black vollkorn-font text-2xl sm:-mt-28 -mt-24">
                       Enhancing Beauty
                     </h1>
                     <p className="text-center intro-font  sm:-mt-0 -mt-0 ">
@@ -63,10 +63,10 @@ const Beauty = () => {
                   <img
                     src="/assets/ring3.png"
                     alt="Jwellery"
-                    className="sm:h-72 xl:h-86 h-80   pb-20"
+                    className="sm:h-64 xl:h-72 h-60   pb-20 px-4"
                   />
                   <div>
-                    <h1 className="text-black vollkorn-font text-2xl sm:-mt-28 -mt-32">
+                    <h1 className="text-black vollkorn-font text-2xl sm:-mt-28 -mt-24">
                       Enhancing Beauty
                     </h1>
                     <p className="text-center intro-font  sm:-mt-0 -mt-0 ">
