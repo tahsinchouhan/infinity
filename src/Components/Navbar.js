@@ -20,7 +20,7 @@ const Navbar = () => {
           <img
             src="/assets2/logo-02.png"
             alt="Logo"
-            className="sm:w-per25 w-per70"
+            className="sm:w-per20 w-per70"
           />
           <div className="sm:hidden block">
             <div className="flex space-x-4 font-bold mt-4 ml-4 text-3xl">
