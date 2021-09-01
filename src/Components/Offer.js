@@ -16,7 +16,7 @@ const Offer = () => {
         <div>
           <div
             className="absolute 2xl:w-100 xl:w-86 md:w-80 w-64 
-           xl:-top-12 -top-8 2xl:right-per25 lg:right-per22 right-per15"
+           xl:-top-12 -top-8 2xl:-per25 lg:right-per22 right-per15"
           >
             <OfferCard src="group70" />
           </div>
