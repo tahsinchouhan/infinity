@@ -20,8 +20,8 @@ const HomePage = () => {
       <Banner />
       <ShowPiece />
       <Beauty />
-      <VideoSection direction="flex-row" />
-      <VideoSection direction="flex-row-reverse" />
+      <VideoSection />
+      <VideoSection reverse />
       <div className="sm:block hidden h-screen">
         <Offer />
       </div>

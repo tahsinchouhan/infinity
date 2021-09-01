@@ -1,11 +1,15 @@
 import React from "react";
 import ReactPlayer from "react-player";
 
-const VideoSection = ({ direction }) => {
+const VideoSection = ({ reverse }) => {
   return (
     <section className="pt-20 pb-40">
       <div
-        className={`relative flex sm:${direction} flex-col-reverse justify-end `}
+        className={
+          reverse
+            ? `relative flex sm:flex-row-reverse flex-col-reverse justify-end `
+            : `relative flex sm:flex-row flex-col-reverse justify-end `
+        }
       >
         <div className=" sm:static absolute top-16 left-10  xl:h-100 sm:h-96 h-48 xl:w-108 sm:w-98 w-72 border-2 border-black">
           <ReactPlayer
