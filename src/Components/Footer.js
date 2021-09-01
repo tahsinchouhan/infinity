@@ -15,8 +15,8 @@ const Footer = () => {
             <div className=" sm:w-per30 w-per100 ">
               <h1 className="pb-5 malayalam-font ">We Assure :</h1>
               <span className="font-light text-sm text-gray-500 space-y-1">
-                <p>100% Hallmark Jewellery</p>
-                <p>Try Jewellery at Home</p>
+                <p>100% Hallmark jewellery</p>
+                <p>Try jewellery at Home</p>
                 <p>Lifetime Exchange on Gold</p>
                 <p>Shipping and Return Policy</p>
                 <p>Terms and Conditions</p>

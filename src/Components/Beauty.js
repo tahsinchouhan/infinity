@@ -16,7 +16,7 @@ const Beauty = () => {
               alt=""
               className="absolute w-eighty sm:h-auto h-56 sm:top-16 top-20 left-per10  "
             />
-            <div className="lg:w-fifty sm:w-sixty w-eighty mx-auto absolute 2xl:top-per110 xl:top-per95 md:top-per105 top-per60 sm:left-per25 left-per10">
+            <div className="lg:w-fifty sm:w-sixty w-eighty mx-auto absolute 2xl:top-per110 xl:top-per95 md:top-per105 top-per60 lg:left-per25 md:left-per20 left-per10">
               <Carousel
                 autoPlay="true"
                 interval="2000"
@@ -33,14 +33,14 @@ const Beauty = () => {
                   <img
                     src="/assets/ring.png"
                     alt="Jwellery"
-                    className="sm:h-64 xl:h-72 h-60   pb-20 px-4"
+                    className="sm:h-64 xl:h-72 h-72   pb-20 px-4"
                   />
                   <div>
                     <h1 className="text-black vollkorn-font text-2xl sm:-mt-28 -mt-24">
                       Enhancing Beauty
                     </h1>
-                    <p className="text-center intro-font  sm:-mt-0 -mt-0 ">
-                      Eligent yet modern jewwlry with distinctive design
+                    <p className="text-center intro-font lg:mt-0  sm:-mt-2 -mt-0 ">
+                      Eligent yet modern jewellery with distinctive design
                     </p>
                   </div>
                 </div>
@@ -48,14 +48,14 @@ const Beauty = () => {
                   <img
                     src="/assets/ring2.png"
                     alt="Jwellery"
-                    className="sm:h-64 xl:h-72 h-60   pb-20 px-4"
+                    className="sm:h-64 xl:h-72 h-72   pb-20 px-4"
                   />
                   <div>
                     <h1 className="text-black vollkorn-font text-2xl sm:-mt-28 -mt-24">
                       Enhancing Beauty
                     </h1>
-                    <p className="text-center intro-font  sm:-mt-0 -mt-0 ">
-                      Eligent yet modern jewwlry with distinctive design
+                    <p className="text-center intro-font lg:mt-0  sm:-mt-2 -mt-0 ">
+                      Eligent yet modern jewellery with distinctive design
                     </p>
                   </div>
                 </div>
@@ -63,14 +63,14 @@ const Beauty = () => {
                   <img
                     src="/assets/ring3.png"
                     alt="Jwellery"
-                    className="sm:h-64 xl:h-72 h-60   pb-20 px-4"
+                    className="sm:h-64 xl:h-72 h-72   pb-20 px-4"
                   />
                   <div>
                     <h1 className="text-black vollkorn-font text-2xl sm:-mt-28 -mt-24">
                       Enhancing Beauty
                     </h1>
-                    <p className="text-center intro-font  sm:-mt-0 -mt-0 ">
-                      Eligent yet modern jewwlry with distinctive design
+                    <p className="text-center intro-font  lg:mt-0 sm:-mt-2 -mt-0 ">
+                      Eligent yet modern jewellery with distinctive design
                     </p>
                   </div>
                 </div>
@@ -82,7 +82,7 @@ const Beauty = () => {
               </h1>
               <h2 className="lg:text-3xl md:text-2xl sm:text-xl text-xs intro-font sm:mt-4 mt-1">
                 {" "}
-                Eligent yet modern jewelry with distinctive design
+                Eligent yet modern jewellery with distinctive design
               </h2>
               <span className="sm:block hidden ">
                 <button className="  xl:mt-12 md:mt-10 mt-4 rounded-md mx-auto xl:w-96 sm:w-48 w-32  md:h-20 sm:h-12 h-8 bg-white xl:text-2xl sm:text-lg text-xs text-black">

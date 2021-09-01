@@ -45,7 +45,7 @@ const Slider = () => {
           Latest Collection
         </h1>
         <p className="xl:text-3xl intro-font sm:text-xl text-xs">
-          Eligent yet modern jewelry with distinctive design
+          Eligent yet modern jewellery with distinctive design
         </p>
         <span className=" ">
           <button className=" xl:mt-28 sm:mt-10 mt-4 rounded-md mx-auto xl:w-80 sm:w-48 w-32  md:h-20 sm:h-12 h-8 bg-white xl:text-xl sm:text-lg text-xs text-black">
