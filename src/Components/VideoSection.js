@@ -3,7 +3,7 @@ import ReactPlayer from "react-player";
 
 const VideoSection = ({ reverse }) => {
   return (
-    <section className="lg:pb-20 pb-10">
+    <section className="lg:pb-20 pb-20">
       <div
         className={
           reverse
