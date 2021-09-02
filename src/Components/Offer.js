@@ -3,7 +3,7 @@ import OfferCard from "../SubComponents/OfferCard";
 
 const Offer = () => {
   return (
-    <section className="pt-36">
+    <section className="sm:py-20 py-10">
       <div className="relative 2xl:h-86 xl:h-64 md:h-56 h-44 bg-offer flex">
         <div>
           <div

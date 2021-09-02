@@ -40,7 +40,7 @@ const Slider = () => {
           {/* <p className="legend">Legend 3</p> */}
         </div>
       </Carousel>
-      <div className="absolute sm:space-y-5 space-y-1 top-per30 sm:top-per25 2xl:top-per40 xl:top-per30  sm:left-per8 left-per10 sm:h-full ">
+      <div className="absolute sm:space-y-5 space-y-1  top-per30 sm:top-per25 2xl:top-per30 xl:top-per30  sm:left-per12 left-per10 sm:h-full ">
         <h1 className="text-lg sm:text-4xl xl:text-7xl font-medium malayalam-font">
           Latest Collection
         </h1>

@@ -2,9 +2,9 @@ import React from "react";
 
 const WhatsNew = () => {
   return (
-    <section className="h-hseventy">
+    <section className="lg:h-hseventy  h-hfifty">
       <div className="xl:h-96 md:h-72 h-56 bg-new relative flex justify-center">
-        <span className="sm:text-6xl text-4xl sm:mt-6 mt-8 vollkorn-font">
+        <span className="sm:text-6xl text-4xl sm:mt-12 mt-8 vollkorn-font">
           See What's New
         </span>
         <span className="absolute 2xl:w-96 xl:w-86 md:w-64 sm:w-48 w-56 md:top-40 top-28  2xl:left-per20 sm:left-per10 left-16">

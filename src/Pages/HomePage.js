@@ -20,15 +20,19 @@ const HomePage = () => {
       <Banner />
       <ShowPiece />
       <Beauty />
-      <VideoSection />
-      <VideoSection reverse />
-      <div className="sm:block hidden h-screen">
+      <div className="pb-10">
+        <VideoSection />
+      </div>
+      <div className="pb-10">
+        <VideoSection reverse />
+      </div>
+      <div className="sm:block hidden lg:h-screen md:h-hseventy">
         <Offer />
       </div>
       <div className="sm:hidden block pb-60">
         <OfferMobile src="group68" />
       </div>
-      <div className="sm:hidden block pb-86">
+      <div className="sm:hidden block pb-60">
         <OfferMobile src="group70" />
       </div>
       <WhatsNew />

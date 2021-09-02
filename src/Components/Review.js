@@ -4,8 +4,8 @@ import ReviewSlider from "../SubComponents/ReviewSlider";
 
 const Review = () => {
   return (
-    <section className="h-hseventy">
-      <div className="flex justify-center pb-10">
+    <section className="h-hseventy pt-10 pb-20">
+      <div className="flex justify-center pb-10 ">
         <h1 className="sm:text-6xl text-4xl malayalam-font">
           Customer Reviews
         </h1>

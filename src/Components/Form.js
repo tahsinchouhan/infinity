@@ -2,14 +2,14 @@ import React from "react";
 
 const Form = () => {
   return (
-    <section className="pt-10">
+    <section className="sm:pt-36 pt-20">
       <div className="mx-auto w-screen form relative">
         <img
           src="/assets/group82.png"
           alt="Design"
           className="w-full h-hfifty"
         />
-        <div className="absolute sm:top-per20 top-per10 malayalam-font lg:right-per10 sm:right-per10 sm:text-left text-center">
+        <div className="absolute sm:top-per20 top-per10 malayalam-font lg:right-per12 sm:right-per10 sm:text-left text-center">
           <h1 className="sm:text-6xl text-4xl font-serif py-3">Sign Up Now</h1>
 
           <h2 className="sm:text-2xl text-lg intro-font  font-light py-1">

@@ -7,16 +7,16 @@ const Beauty = () => {
   const isMobile = size.width < 600;
 
   return (
-    <div className="sm:h-heighty h-hseventy lg:mb-40 ">
-      <div className="lg:h-96 md:h-72 sm:h-60 h-60 mt-10 bg-beauty relative">
-        <div className=" w-screen ">
+    <div className="sm:h-heighty h-hseventy sm:pt-0 pt-6 lg:mb-40 md:mb-0 mb-10 ">
+      <div className="lg:h-96 md:h-72 sm:h-60 h-60  bg-beauty relative">
+        <div className=" max-w-full ">
           <div className="">
             <img
               src="./assets/group4.png "
               alt=""
-              className="absolute w-eighty sm:h-auto h-56 sm:top-16 top-20 left-per10  "
+              className="absolute w-9/12 sm:h-auto h-56 sm:top-16 top-20 left-per12  "
             />
-            <div className="lg:w-fifty sm:w-sixty w-eighty mx-auto absolute 2xl:top-per110 xl:top-per95 md:top-per105 top-per60 lg:left-per25 md:left-per20 left-per10">
+            <div className=" sm:w-sixty w-eighty mx-auto absolute 2xl:top-per110 xl:top-per95 md:top-per105 top-per60  md:left-per20 left-per10">
               <Carousel
                 autoPlay="true"
                 interval="2000"
@@ -77,10 +77,10 @@ const Beauty = () => {
               </Carousel>
             </div>
             <div className="absolute sm:top-per30  2xl:top-per50 xl:top-per30 lg:top-per50   left-per15">
-              <h1 className="lg:text-6xl sm:text-5xl text-3xl malayalam-font sm:mt-0 mt-3">
+              <h1 className="lg:text-6xl sm:text-5xl text-3xl malayalam-font sm:mt-0 mt-6">
                 Enhancing Beauty
               </h1>
-              <h2 className="lg:text-3xl md:text-2xl sm:text-xl text-xs intro-font sm:mt-4 mt-1">
+              <h2 className="sm:block hidden lg:text-3xl md:text-2xl sm:text-xl text-xs intro-font sm:mt-4 mt-1">
                 {" "}
                 Eligent yet modern jewellery with distinctive design
               </h2>

@@ -9,7 +9,7 @@ const Navbar = () => {
       <div>
         <div className="sm:block hidden">
           <div className="flex justify-end px-6 pt-4">
-            <ul className="flex sm:space-x-6 space-x-3 sm:font-semibold sm:text-sm text-xs ">
+            <ul className="flex sm:space-x-6 space-x-3 sm:font-semibold text-xs ">
               <li>Book an Appointment</li>
               <li>Video Call</li>
               <li>Try At Home</li>
@@ -23,7 +23,7 @@ const Navbar = () => {
             className="sm:w-per20 w-per70"
           />
           <div className="sm:hidden block">
-            <div className="flex space-x-4 font-bold mt-4 ml-4 text-3xl">
+            <div className="flex space-x-4 font-bold mt-4 ml-4 text-2xl">
               <span>
                 <FaShoppingCart />
               </span>
@@ -42,14 +42,14 @@ const Navbar = () => {
       </div>
       <div className="sm:block hidden">
         <div className=" md:px-20 px-10 py-1 flex justify-between">
-          <ul className="flex md:space-x-10 space-x-5 font-semibold md:text-xl text-lg">
+          <ul className="flex md:space-x-10 space-x-5 font-semibold text-lg">
             <li>Gold</li>
             <li>Diamond</li>
             <li>Silver</li>
             <li>Collection</li>
             <li>All Jewellery</li>
           </ul>
-          <div className="flex space-x-8 font-bold text-3xl">
+          <div className="flex space-x-8 font-bold text-2xl">
             <span>
               <AiOutlineSearch />
             </span>

@@ -34,6 +34,8 @@ module.exports = {
 
         fourty: "40vw",
         hfifty: "50vh",
+        hsixty: "60vh",
+
         hseventy: "70vh",
         heighty: "80vh",
         42: "10.5rem",
@@ -43,12 +45,17 @@ module.exports = {
         104: "34rem",
         106: "38rem",
         108: "40rem",
+        109: "42rem",
+
+
         110: "44rem",
 
         per5: "5%",
         per8: "8%",
 
         per10: "10%",
+        per12: "13%",
+
         per15: "15%",
         per20: "20%",
         per22: "22%",
@@ -58,6 +65,8 @@ module.exports = {
         per35: "38%",
         per40: "40%",
         per50: "50%",
+        per55: "55%",
+
         per60: "60%",
         per65: "66%",
 

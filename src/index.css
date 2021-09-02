@@ -21,9 +21,13 @@
 }
 .awssld__bullets button {
   background-color: #d9eaea !important;
+  width: 12px !important;
+  height: 12px !important;
 }
 .awssld__bullets .awssld__bullets--active {
   background-color: #819c9c !important;
+  width: 14px !important;
+  height: 14px !important;
 }
 .legend {
   background-color: transparent !important;

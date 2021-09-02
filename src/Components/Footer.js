@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="  sm:space-y-0 space-y-4  sm:flex">
             <div className=" sm:w-per30 w-per100 ">
               <h1 className="pb-5 malayalam-font ">We Assure :</h1>
-              <span className="font-light text-sm text-gray-500 space-y-1">
+              <span className="font-light text-sm text-gray-500 intro-font space-y-1">
                 <p>100% Hallmark jewellery</p>
                 <p>Try jewellery at Home</p>
                 <p>Lifetime Exchange on Gold</p>
@@ -22,7 +22,7 @@ const Footer = () => {
                 <p>Terms and Conditions</p>
               </span>
             </div>
-            <div className=" sm:w-per25 w-per100 ">
+            <div className=" sm:w-per30 w-per100 ">
               <h1 className="pb-5 malayalam-font ">
                 Infinity by ma Advantage :
               </h1>
@@ -39,7 +39,7 @@ const Footer = () => {
                 <p>Order Status</p>
               </span>
             </div>
-            <div className=" sm:w-per20 w-per100 ">
+            <div className=" sm:w-per15 w-per100 ">
               <h1 className="pb-5 malayalam-font ">About Us</h1>
               <span className="font-light text-sm intro-font text-gray-500 space-y-1">
                 <p>Our Story</p>
